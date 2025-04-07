@@ -84,3 +84,111 @@
     });
   </script></body>
 </html>
+<!DOCTYPE html><html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MyTiramisuDZ</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #fff8f0;
+      color: #4e342e;
+    }
+    header {
+      background-color: #b71c1c;
+      color: white;
+      text-align: center;
+      padding: 1em 0;
+    }
+    .section {
+      padding: 2em;
+      max-width: 900px;
+      margin: auto;
+    }
+    .product {
+      border: 1px solid #e0d4c3;
+      border-radius: 12px;
+      padding: 1em;
+      margin-bottom: 1.5em;
+      background: #fff;
+      box-shadow: 0 0 10px #e4c8ba;
+    }
+    .product img {
+      width: 100%;
+      border-radius: 12px;
+      max-height: 200px;
+      object-fit: cover;
+    }
+    .product h3 {
+      margin: 0.5em 0 0.2em;
+    }
+    .product p.price {
+      font-weight: bold;
+      color: #b71c1c;
+    }
+    .wa-button {
+      display: inline-block;
+      margin-top: 0.5em;
+      background-color: #25D366;
+      color: white;
+      padding: 0.6em 1em;
+      border-radius: 8px;
+      text-decoration: none;
+    }
+    .whatsapp-float {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background-color: #25D366;
+      color: white;
+      padding: 12px 18px;
+      border-radius: 50px;
+      text-decoration: none;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+      font-weight: bold;
+      z-index: 1000;
+    }
+    .reviews blockquote {
+      background: #fbe9e7;
+      padding: 1em;
+      border-left: 6px solid #d84315;
+      margin-bottom: 1em;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>MyTiramisuDZ</h1>
+  </header>  <section class="section">
+    <h2>Nos Tiramisus</h2><div class="product">
+  <img src="https://i.pinimg.com/564x/64/67/f1/6467f1681a8c0f8a8d997b51fdd4dd1c.jpg" alt="Tiramisu Classique">
+  <h3>Tiramisu Classique</h3>
+  <p>Délicieux tiramisu fait maison.</p>
+  <p class="price">800 DA</p>
+  <a class="wa-button" href="https://wa.me/213798593631" target="_blank">Commander sur WhatsApp</a>
+</div>
+
+<div class="product">
+  <img src="https://i.pinimg.com/564x/07/66/f9/0766f92c5b6b16a7ee80f5d580f1d18a.jpg" alt="Tiramisu Oreo">
+  <h3>Tiramisu Oreo</h3>
+  <p>La douceur du tiramisu avec le croquant des Oreos.</p>
+  <p class="price">900 DA</p>
+  <a class="wa-button" href="https://wa.me/213798593631" target="_blank">Commander sur WhatsApp</a>
+</div>
+
+  </section>  <section class="section">
+    <h2>À propos</h2>
+    <p>Chez MyTiramisuDZ, nous préparons des tiramisus faits maison avec amour et des ingrédients de qualité. Notre mission est de vous offrir une expérience sucrée inoubliable.</p>
+  </section>  <section class="section">
+    <h2>Avis de nos clients</h2>
+    <div class="reviews">
+      <blockquote>“Le meilleur tiramisu que j’ai goûté !” – Sarah</blockquote>
+      <blockquote>“Livraison rapide et dessert délicieux !” – Yacine</blockquote>
+      <blockquote>“Une vraie explosion de saveurs. Merci !” – Lina</blockquote>
+    </div>
+  </section><a href="https://wa.me/213798593631" class="whatsapp-float" target="_blank">WhatsApp</a>
+
+</body>
+</html>
